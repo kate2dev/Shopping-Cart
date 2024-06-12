@@ -1,0 +1,248 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+}
+
+header{
+background-color: black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 150px; 
+    background-image: url("https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?t=st=1718193350~exp=1718196950~hmac=6b87aa3dcb5bcc5be953d8d45307c5751d7f9832cc926c45d33157d0a71c9f49&w=996");
+}
+
+
+ /* {
+  
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index:-1;
+    margin-bottom: 10rem;
+} */
+
+.overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(10, 10, 10, 0.3);
+}
+
+.shop{
+  color: whitesmoke;
+  font-size: xx-large;
+}
+
+nav ion-icon{
+margin-right: 3px;
+}
+
+
+nav {
+ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+nav li span {
+    padding-left: 5px;
+
+}
+
+li a {
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: large;
+}
+.cart {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px
+    
+}
+
+.cart a {
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  align-items: center;
+  margin: 100px auto 0 auto;
+}
+
+.products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.image{
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.add-cart {
+    position: absolute;
+    width: 100%;
+    background-color: darkgray;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4 {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+              /* CART PAGE */
+
+              .products-container {
+                max-width: 650px;
+                justify-content: space-around;
+                margin: 0 auto;
+                margin-top: 100px;
+              }
+
+              .shop{
+                color: whitesmoke;
+                font-size: xx-large;
+              }
+              
+                
+                
+
+              .products-container ion-icon {
+                font-size: 25px;
+                color: blue;
+                margin-left: 10px;
+                margin-right: 10px;
+                cursor: pointer;
+              }
+
+              .product-header{
+                width: 100%;
+                max-width: 650px;
+                display: flex;
+                border-bottom: 4px solid lightgrey;
+                margin: 0 auto;
+              }
+
+              .product-title {
+                width: 45%;
+              }
+
+              .price{
+                width: 15%;
+            border-bottom: 1px solid lightgrey;
+                display: flex;
+                align-items: center;
+              }
+
+              .quantity{
+                width: 30%;
+                border-bottom: 1px solid lightgrey;
+                display: flex;
+                align-items: center;
+              }
+
+              .total{
+                width: 10%;
+                border-bottom: 1px solid lightgrey ;
+                display: flex;
+                align-items: center;
+              }
+              .product{
+                width: 45%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 10px 0;
+                border-bottom: 1px solid lightgrey;
+              }
+
+              .products img {
+                width: 75px;
+              }
+
+            .products{
+              width: 100%;
+              display: flex;
+              flex-wrap: wrap;
+            }
+
+            .product ion-icon{
+              cursor: pointer;
+            }
+
+            .basketTotalContainer {
+              display: flex;
+              justify-content: flex-end;
+              width: 100%;
+              padding: 10px 0;
+            }
+
+            .basketTotalTitle{
+              width: 30%;
+            }
+             
+            .basketTotal{
+              width: 10%;
+            }
+
+            
