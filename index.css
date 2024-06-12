@@ -9,17 +9,17 @@
 
 header{
 background-color: black ;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
-    position: relative;
-    height: 150px; 
+    position: relative; 
+     height: 150px; 
     background-image: url("https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?t=st=1718193350~exp=1718196950~hmac=6b87aa3dcb5bcc5be953d8d45307c5751d7f9832cc926c45d33157d0a71c9f49&w=996");
 }
 
 
- /* {
-  
+  /* header{
+    
     width: 100vw;
     height: 60vh;
     object-fit: cover;
@@ -151,12 +151,29 @@ li a {
 
 
               /* CART PAGE */
+/* 
+              @media (min-width: 576px), (max-width: 768px) 
+              {
+               .ul {
+                display: flex;
+                flex-direction: row;
+                background-color: blue;
+              
+    
+              
+                
+                
+               }
+                } */
+              
 
               .products-container {
                 max-width: 650px;
                 justify-content: space-around;
                 margin: 0 auto;
                 margin-top: 100px;
+                padding: 20px;
+                padding-left: 5px;
               }
 
               .shop{
@@ -164,8 +181,6 @@ li a {
                 font-size: xx-large;
               }
               
-                
-                
 
               .products-container ion-icon {
                 font-size: 25px;
@@ -176,8 +191,8 @@ li a {
               }
 
               .product-header{
-                width: 100%;
-                max-width: 650px;
+                width: 90%;
+                max-width: 550px;
                 display: flex;
                 border-bottom: 4px solid lightgrey;
                 margin: 0 auto;
@@ -206,6 +221,7 @@ li a {
                 border-bottom: 1px solid lightgrey ;
                 display: flex;
                 align-items: center;
+          
               }
               .product{
                 width: 45%;
